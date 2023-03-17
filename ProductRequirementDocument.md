@@ -90,7 +90,7 @@ Capsule provides a list from the same season.
 
 # Design
 
-UPDATES PENDING: screenshots of the look
+UPDATES PENDING: links to screenshots of the look
 
 # Performance
 
