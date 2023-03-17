@@ -66,26 +66,26 @@ The scope of this project is to provide Bixby users a way to check whether a fru
 
 ## User Stories
 
-User 1 wants to know whether a specific fruit or vegetable is in season.
-User 1: Are apples in season right now?
+User 1 wants to know whether a specific fruit or vegetable is in season.<br>
+User 1: Are apples in season right now?<br>
 Capsule provides answer.
 
-User 2 wants to know all the produce that is in season right now.
-User 2: What is in season?
+User 2 wants to know all the produce that is in season right now.<br>
+User 2: What is in season?<br>
 Capsule provides a list of fruits and vegetables that are in season.
 
-User 3 is at the supermarket but doesn't know what kind of produce they want to buy.
-User 3: Which vegetables are in season right now?
+User 3 is at the supermarket but doesn't know what kind of produce they want to buy.<br>
+User 3: Which vegetables are in season right now?<br>
 Capsule provides a list of in-season vegetables.
 
-User 4 is making their shopping list at home and wants to know which fruits and vegetables are best purchased in winter.
-User 4: What produce is in season in the winter?
+User 4 is making their shopping list at home and wants to know which fruits and vegetables are best purchased in winter.<br>
+User 4: What produce is in season in the winter?<br>
 Capsule provides a list of fruits and vegetables that are in season in the winter.
 
-User 5 is at the grocery store trying to select both fruits and vegetables, but they don't know what is in season.
-User 5: What fruits are in season right now?
-Capsule provides a list depending on the user's season.
-User 5 continues the conversation: What about vegetables?
+User 5 is at the grocery store trying to select both fruits and vegetables, but they don't know what is in season.<br>
+User 5: What fruits are in season right now?<br>
+Capsule provides a list depending on the user's season.<br>
+User 5 continues the conversation: What about vegetables?<br>
 Capsule provides a list from the same season.
 
 # Design
