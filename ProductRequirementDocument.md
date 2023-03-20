@@ -2,7 +2,7 @@
 
 Supermarkets don't always have the produce shoppers expect to be available, and shoppers may not know which fruits and vegetables are in season. Plus, manually looking up that information on a phone while navigating aisles with a basket full of groceries is inconvenient - it's easier to ask an intelligent assitant. 
 
-The Seasonal Produce capsule for Bixby allows users based in the United States to request information about a specific item or season to help determine what produce to purchase. The capsule utilizes information from the [U.S. Department of Agriculture SNAP-Ed Seasonal Produce Guide](https://snaped.fns.usda.gov/seasonal-produce-guide). The information is stored and managed in a SQLite database hosted UPDATES PENDING: somewhere.
+The Seasonal Produce capsule for Bixby allows users based in the United States to request information about a specific item or season to help determine what produce to purchase. The capsule utilizes information from the [U.S. Department of Agriculture SNAP-Ed Seasonal Produce Guide](https://snaped.fns.usda.gov/seasonal-produce-guide). The information is stored and managed in a SQLite database hosted UPDATES PENDING: aws or gcs.
 
 ## Product Manager
 * Rebecca Bapaye
@@ -66,31 +66,27 @@ The scope of this project is to provide Bixby users a way to check whether a fru
 
 ## User Stories
 
-User 1 wants to know whether a specific fruit or vegetable is in season.<br>
+*User 1 wants to know whether a specific fruit or vegetable is in season.*<br>
 User 1: Are apples in season right now?<br>
-Capsule provides answer.
+Capsule: Provides answer.
 
-User 2 wants to know all the produce that is in season right now.<br>
+*User 2 wants to know all the produce that is in season right now.*<br>
 User 2: What is in season?<br>
-Capsule provides a list of fruits and vegetables that are in season.
+Capsule: Provides a list of fruits and vegetables that are in season.
 
-User 3 is at the supermarket but doesn't know what kind of produce they want to buy.<br>
+*User 3 is at the supermarket but doesn't know what kind of produce they want to buy.*<br>
 User 3: Which vegetables are in season right now?<br>
-Capsule provides a list of in-season vegetables.
+Capsule: Provides a list of in-season vegetables.
 
-User 4 is making their shopping list at home and wants to know which fruits and vegetables are best purchased in winter.<br>
+*User 4 is making their shopping list at home and wants to know which fruits and vegetables are best purchased in winter.*<br>
 User 4: What produce is in season in the winter?<br>
-Capsule provides a list of fruits and vegetables that are in season in the winter.
+Capsule: Provides a list of fruits and vegetables that are in season in the winter.
 
-User 5 is at the grocery store trying to select both fruits and vegetables, but they don't know what is in season.<br>
+*User 5 is at the grocery store trying to select both fruits and vegetables, but they don't know what is in season.*<br>
 User 5: What fruits are in season right now?<br>
-Capsule provides a list depending on the user's season.<br>
-User 5 continues the conversation: What about vegetables?<br>
-Capsule provides a list from the same season.
-
-# Design
-
-UPDATES PENDING: links to screenshots of the look
+Capsule: Provides a list depending on the user's season.<br>
+User 5 (continuing the conversation): What about vegetables?<br>
+Capsule: Provides a list from the same season.
 
 # Performance
 
