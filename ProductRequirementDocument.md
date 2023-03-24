@@ -2,7 +2,7 @@
 
 Supermarkets don't always have the produce shoppers expect to be available, and shoppers may not know which fruits and vegetables are in season. Plus, manually looking up that information on a phone while navigating aisles with a basket full of groceries is inconvenient - it's easier to ask an intelligent assitant. 
 
-The Seasonal Produce capsule for Bixby allows users based in the United States to request information about a specific item or season to help determine what produce to purchase. The capsule utilizes information from the [U.S. Department of Agriculture SNAP-Ed Seasonal Produce Guide](https://snaped.fns.usda.gov/seasonal-produce-guide). The information is stored and managed in a SQLite database hosted UPDATES PENDING: aws or gcs.
+The Seasonal Produce capsule for Bixby allows users based in the United States to request information about a specific item or season to help determine what produce to purchase. The capsule utilizes information from the [U.S. Department of Agriculture SNAP-Ed Seasonal Produce Guide](https://snaped.fns.usda.gov/seasonal-produce-guide). The information is stored and managed in a SQLite database hosted on Google Cloud Platform (awaiting link).
 
 ## Product Manager
 * Rebecca Bapaye
@@ -57,7 +57,7 @@ Bixby is one of four major intelligent assistants in the current market. Its mai
 
 # Scope
 
-The scope of this project is to provide Bixby users a way to check whether a fruit or vegetable is in season. The user can also request a list of all fruits and vegetables that are in season.
+The scope of this project is to provide Bixby users a way to check whether a fruit or vegetable is in season. The user can also request a list of all fruits and vegetables that are currently in season.
 
 * The current priority will be fruits and vegetables commonly found in supermarkets in the United States, but eventually more varied items may be added to the database
 * In the future, functionality may be added to allow users to request the addition of specific items not currently listed in the database
@@ -90,7 +90,7 @@ Capsule: Provides a list from the same season.
 
 # Performance
 
-Metric for success to be decided. Some metrics that will be considered are accuracy of results, the capsule rating and customer satisfaction, and number of user reports.
+Metrics for success to be decided. Some metrics that will be considered are accuracy of results, the capsule rating and customer satisfaction, and number of user reports.
 
 # Open questions
 
