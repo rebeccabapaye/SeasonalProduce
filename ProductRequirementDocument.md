@@ -2,7 +2,7 @@
 
 Supermarkets don't always have the produce shoppers expect to be available, and shoppers may not know which fruits and vegetables are in season. Plus, manually looking up that information on a phone while navigating aisles with a basket full of groceries is inconvenient - it's easier to ask an intelligent assitant. 
 
-The Seasonal Produce capsule for Bixby allows users based in the United States to request information about a specific item or season to help determine what produce to purchase. The capsule utilizes information from the [U.S. Department of Agriculture SNAP-Ed Seasonal Produce Guide](https://snaped.fns.usda.gov/seasonal-produce-guide). The information is stored and managed in a SQLite database hosted on Google Cloud Platform (awaiting link).
+The Seasonal Produce capsule for Bixby allows users based in the United States to request information about a specific item or season to help determine what produce to purchase. The capsule utilizes information from the [U.S. Department of Agriculture SNAP-Ed Seasonal Produce Guide](https://snaped.fns.usda.gov/seasonal-produce-guide). The information is stored within the capsule as a JSON object.
 
 ## Product Manager
 * Rebecca Bapaye
