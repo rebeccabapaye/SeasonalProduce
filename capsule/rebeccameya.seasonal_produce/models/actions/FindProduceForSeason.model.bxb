@@ -1,0 +1,11 @@
+action (FindProduceForSeason) {
+  description (Searches for the produce available in the requested season)
+  type(Search)
+  collect {
+    input (season) {
+      type (Season)
+      min (Required) max (One)
+    }
+  }
+  output (Produce)
+}

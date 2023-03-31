@@ -1,0 +1,16 @@
+structure (Produce) {
+  description (A fruit or vegetable)
+
+  property (produceName) {
+    type (ProduceName)
+    min (Required) max (One)
+  }
+  property (produceType) {
+    type (ProduceType)
+    min (Required) max(One)
+  }
+  property (season) {
+    type (Season)
+    min (Required) max(Many)
+  }
+}
