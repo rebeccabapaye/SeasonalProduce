@@ -1,0 +1,8 @@
+capsule-info {
+  display-name (Seasonal Produce)
+  developer-name (RebeccAmeya)
+  description ("This capsule will give you all the answers to life's questions...as long as those questions are about what produce is in season.")
+  dispatch-name (Seasonal Produce)
+  // Set your own image for your capsule's icon
+  icon-asset (images/icons/bixby_launcher.png) //TODO AMEYA
+}

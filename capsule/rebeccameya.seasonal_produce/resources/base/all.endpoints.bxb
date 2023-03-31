@@ -1,0 +1,12 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (FindSeasonForProduce) {
+      accepted-inputs (produceName)
+      local-endpoint ("FindSeasonForProduce.js")
+    }
+    action-endpoint (FindProduceForSeason) {
+      accepted-inputs (season)
+      local-endpoint ("FindProduceForSeason.js")
+    }
+  }
+}
