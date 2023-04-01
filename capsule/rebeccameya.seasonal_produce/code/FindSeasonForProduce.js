@@ -2,14 +2,15 @@ import console from 'console'
 import produceList from './lib/FruitAndVegetable.json'
 
 export default function (input) {
-  let season = "Not Found";
+  let season = "Not Found"
 
-  for (var i = 0; i < produceList.length; i++) {
+  for (let i = 0; i < produceList.length; i++) {
     console.log(produceList[i].name.toLowerCase())
 
     if (produceList[i].name.toLowerCase() == input.produceName.toLowerCase()) {
       console.log(produceList[i])
       season = produceList[i].season
+      break
     }
   }
   return season

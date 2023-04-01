@@ -1,11 +1,11 @@
 structure (Produce) {
   description (A fruit or vegetable)
 
-  property (produceName) {
+  property (name) {
     type (ProduceName)
     min (Required) max (One)
   }
-  property (produceType) {
+  property (type) {
     type (ProduceType)
     min (Required) max(One)
   }

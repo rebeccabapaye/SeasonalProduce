@@ -1,11 +1,20 @@
+import console from 'console'
+import produceList from './lib/FruitAndVegetable.json'
+
 export default function (input) {
   
-  // Call to database to get produce for input season
-  // Return produce
-  
-  return {
-      produceName : "Apple",
-      produceType: "Fruit",
-      season: ["Spring", "Summer", "Fall", "Winter"]
+  console.log (input);
+  let produce = []
+
+  for (let i = 0; i < produceList.length; i++) {
+    for (let j = 0; j < produceList[i].season.length; j++) {
+      if (produceList[i].season[j].toLowerCase() == input.season.toLowerCase()) {
+        produce.push(produceList[i])
+        break
+      }
+    }
   }
+  
+  // Return produce
+  return produce
 }
