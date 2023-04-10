@@ -1,0 +1,53 @@
+macro-def (produce_detail) {
+  params {
+    param (singleItem) {
+      type (Produce)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    layout {
+      section {
+        content {
+          title-area {
+            halign (Center)
+            slot1 {
+              text {
+                value ("#{value(singleItem.name)}")
+                style (Title_XL)
+              }
+            }
+            slot2 {
+              single-line {
+                text {
+                  value ("#{value(singleItem.type)}")
+                  style (Detail_L_Soft)
+                }
+              }
+            }
+          }
+          divider
+          single-line {
+            text {
+              value ("In Season")
+              style (Title_S)
+            }
+          }
+          for-each (singleItem.season) {
+            as (season) {
+              single-line {
+                text {   
+                  value ("#{value(season)}")
+                  style (Detail_M_Soft)
+                }
+              }
+            }
+          }
+          
+        }
+      }
+    }
+  }
+}
