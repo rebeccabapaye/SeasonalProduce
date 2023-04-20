@@ -1,5 +1,7 @@
 hints {
-  // uncategorized {
-  //   hint (With Example Capsule, perform an action)
-  // }
+  uncategorized {
+    hint (Ask Seasonal Produce, are apples in season?)
+    hint (Ask Seasonal Produce, what is in season right now?)
+    hint (Ask Seasonal Produce to show me winter vegetables)
+  }
 }

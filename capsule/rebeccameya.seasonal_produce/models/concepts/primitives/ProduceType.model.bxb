@@ -1,3 +1,5 @@
-text (ProduceType) {
+enum (ProduceType) {
   description (Type of produce)
+  symbol (Fruit)
+  symbol (Vegetable)
 }

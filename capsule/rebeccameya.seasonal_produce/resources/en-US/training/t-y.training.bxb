@@ -1,4 +1,4 @@
 train (t-yop9is2ppl8umbx43m9fgbofw) {
-  utterance ("[g:Produce] What is available in (summer)[v:Season]?")
-  last-modified (1681161882220)
+  utterance ("[g:Produce] What is available in (summer)[v:Season:Summer]?")
+  last-modified (1682012817983)
 }

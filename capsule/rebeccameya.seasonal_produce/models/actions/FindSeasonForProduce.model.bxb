@@ -7,5 +7,7 @@ action (FindSeasonForProduce) {
       min (Required) max (One)
     }
   }
-  output (Season)
+  output (Season) {
+    evaluate
+  }
 }

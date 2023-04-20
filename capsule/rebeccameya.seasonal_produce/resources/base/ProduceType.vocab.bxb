@@ -1,0 +1,4 @@
+vocab(ProduceType) {
+  "Fruit" {"fruit", "fruits"}
+  "Vegetable" {"vegetable", "vegetables", "veggies"}
+}

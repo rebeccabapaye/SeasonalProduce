@@ -3,7 +3,6 @@ import produceList from './lib/FruitAndVegetable.json'
 
 export default function (input) {
 
-  console.log(input);
   let produce = []
 
   for (let i = 0; i < produceList.length; i++) {
