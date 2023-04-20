@@ -1,0 +1,7 @@
+data:
+  sixtree: |-
+    intent {
+      goal { Produce$ref (r-10L-1) @element (true) }
+    }
+screenshot: screenshot-2023-04-10T21-17-49.257Z-bixby-mobile-en-US-device-s.png
+type: intent

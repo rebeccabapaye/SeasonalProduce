@@ -1,0 +1,6 @@
+vocab(Season) {
+  "Spring" {"spring"}
+  "Summer" {"summer"}
+  "Fall" {"fall", "autumn"}
+  "Winter" {"winter"}
+}

@@ -1,0 +1,24 @@
+macro-def (produce_summary) {
+  params {
+    param (singleItem) {
+      type (Produce)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    cell-card {
+      slot2 {
+        content {
+          order (PrimarySecondary)
+          primary ("#{value(singleItem.name)}")
+          secondary ("#{value(singleItem.type)}")
+        }
+      }
+      on-click {
+        view-for (singleItem)
+      }
+    }
+  }
+}

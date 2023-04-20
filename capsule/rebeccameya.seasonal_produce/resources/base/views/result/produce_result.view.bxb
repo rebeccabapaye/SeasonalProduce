@@ -1,0 +1,22 @@
+result-view {
+  match: Produce (result)
+  render {
+    if (size(result) == 1) {
+      macro (produce_detail) {
+        param (singleItem) {
+          expression (result)
+        }
+      }
+      } else {
+        list-of(result) {
+          where-each(item) {
+            macro(produce_summary) {
+              param (singleItem) {
+                expression (item)
+              }
+            }
+          }
+        }
+      }
+    }
+  }

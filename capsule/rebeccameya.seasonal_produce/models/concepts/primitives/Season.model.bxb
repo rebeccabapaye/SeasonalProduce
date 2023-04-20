@@ -1,3 +1,7 @@
-text (Season) {
+enum (Season) {
   description (Season for produce)
+  symbol (Spring)
+  symbol (Summer)
+  symbol (Fall)
+  symbol (Winter)
 }

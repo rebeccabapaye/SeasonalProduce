@@ -5,7 +5,7 @@ endpoints {
       local-endpoint ("FindSeasonForProduce.js")
     }
     action-endpoint (FindProduceForSeason) {
-      accepted-inputs (season)
+      accepted-inputs (season, produceType)
       local-endpoint ("FindProduceForSeason.js")
     }
   }

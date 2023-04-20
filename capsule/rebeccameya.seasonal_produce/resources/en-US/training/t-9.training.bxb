@@ -1,0 +1,4 @@
+train (t-9p4oc1hwgoyhgcx5o38gaba3i) {
+  utterance ("[g:Produce] what (fruit)[v:ProduceType:Fruit] is available in (summer)[v:Season:Summer]?")
+  last-modified (1682013255859)
+}

@@ -6,6 +6,10 @@ action (FindProduceForSeason) {
       type (Season)
       min (Required) max (One)
     }
+    input (produceType) {
+      type (ProduceType)
+      min (Optional) max (One)
+    }
   }
   output (Produce)
 }

@@ -1,4 +1,4 @@
 train (t-vrvoz5jeofkmhi64w67e7kwsf) {
-  utterance ("[g:Produce] What is in season in (winter)[v:Season]?")
-  last-modified (1680300416503)
+  utterance ("[g:Produce] What is in season in (winter)[v:Season:Winter]?")
+  last-modified (1682012859088)
 }
