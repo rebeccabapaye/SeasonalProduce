@@ -42,7 +42,7 @@ Bixby is one of four major intelligent assistants in the current market. Its mai
 * Guaranteed audience: Amazon has the majority marketshare in the online store, e-book, and audiobook marketplace.
 * Well-developed Skill templates: Amazon provides [templates](https://developer.amazon.com/en-US/alexa/alexa-skills-kit) to allow developers to quickly build and deploy Skills
 ### Drawbacks
-* Limited devices: Amazon's hardware does not have relevant marketshare
+* Limited devices: Amazon's hardware does not have relevant market share
 ## Apple Siri
 ### Benefits
 * Guaranteed reach: The Apple ecosystem solely supports Siri which creates a dedicated userbase that can only use one platform
