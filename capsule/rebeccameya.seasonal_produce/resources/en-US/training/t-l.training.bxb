@@ -1,0 +1,4 @@
+train (t-lzjqm48cizix9244hxm1o8a24) {
+  utterance ("[g:Message,r:GetCurrentSeason] Are (apples)[v:ProduceName] in season right now?")
+  last-modified (1686174603543)
+}

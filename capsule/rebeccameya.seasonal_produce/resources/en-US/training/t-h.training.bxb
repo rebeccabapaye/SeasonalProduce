@@ -2,3 +2,7 @@ train (t-hhtu20osb1wkt1hsye2ll2svh) {
   utterance ("[g:Season] When are (apples)[v:ProduceName] in season?")
   last-modified (1680298657254)
 }
+train (t-ho8zauf9s6jew1p8ucsg772fh) {
+  utterance ("[g:Produce:continue:FindProduceForSeason] How about (veggies)[v:ProduceType:Vegetable]?")
+  last-modified (1686170952517)
+}

@@ -1,0 +1,20 @@
+action (CheckProduceAgainstSeason) {
+  description (Checks if desired produce is available in desired season.)
+  type (Search)
+  collect {
+    input (produceName) {
+      type (ProduceName)
+      min (Required) max (One)
+    }
+    input (season) {
+      type (Season)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: GetCurrentSeason
+        }
+      }
+    }
+  }
+  output (Message) 
+}
