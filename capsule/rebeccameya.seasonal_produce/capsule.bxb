@@ -8,6 +8,10 @@ capsule {
   runtime-version (9) {
     js-runtime-version (2)
   }
+  store-sections {
+    section (FoodAndDrink)
+    section (EducationAndReference)
+  }
   store-countries {
     all
   }

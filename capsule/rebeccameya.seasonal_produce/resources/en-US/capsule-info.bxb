@@ -5,4 +5,7 @@ capsule-info {
   dispatch-name (Seasonal Produce)
   // Set your own image for your capsule's icon
   icon-asset (images/icons/bixby_launcher.png) //TODO AMEYA
+  search-keywords {
+    keyword (seasonal produce)
+  }
 }
