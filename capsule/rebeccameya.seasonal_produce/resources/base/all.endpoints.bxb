@@ -8,5 +8,9 @@ endpoints {
       accepted-inputs (season, produceType)
       local-endpoint ("FindProduceForSeason.js")
     }
+    action-endpoint (GetCurrentSeason) {
+      accepted-inputs ()
+      local-endpoint ("GetCurrentSeason.js")
+    }
   }
 }
