@@ -1,0 +1,5 @@
+train (t-q01zot58f1fzwydx2ltx238w1) {
+  utterance ([g:Produce,r:GetCurrentSeason] What produce is available right now?)
+  plan (Y2BhUClKTUpNTk7MTa1M1CtOTSzOz0vMiS8oyk8pTU7VC4DQDIZ4Vbll5qVAVbrlFwWDpRmU8WqBKtLFq8g9tcS5tKgoNa8EqpyZgZGBCUgygGlGMM0AZDGAxAA=)
+  last-modified (1686170188844)
+}

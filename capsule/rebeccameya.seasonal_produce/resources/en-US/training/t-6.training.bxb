@@ -1,0 +1,4 @@
+train (t-6zcthtlac0mb36778urozs8ef) {
+  utterance ("[g:Produce,r:GetCurrentSeason] What (fruits)[v:ProduceType:Fruit] are in season?")
+  last-modified (1686170292047)
+}

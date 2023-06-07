@@ -1,0 +1,6 @@
+action (GetCurrentSeason) {
+  description (Checks current date and determines current season for the US locale.)
+  type(Calculation)
+
+  output (Season)
+}
