@@ -2,3 +2,8 @@ train (t-2ir7jccmr4h4s7vtx7kqv230b) {
   utterance ("[g:Produce] show me (winter)[v:Season:Winter] (vegetables)[v:ProduceType:Vegetable]")
   last-modified (1682013235338)
 }
+train (t-2a3nxou6wi7f5s7onht2lesbc) {
+  utterance ("[g:Produce:continue:FindProduceForSeason] What about (vegetables)[v:ProduceType:Vegetable]?")
+  plan (Y2BhUClKTUpNTk7MTa1M1CtOTSzOz0vMiS8oyk8pTU7VC4DQDIZ4Vbll5qVAVbrlFwWDpRk0iDE4pLIglUEZr0qoccwMjAxMQJIBSIMgBDBBMAA=)
+  last-modified (1686170933659)
+}
