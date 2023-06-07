@@ -12,5 +12,9 @@ endpoints {
       accepted-inputs ()
       local-endpoint ("GetCurrentSeason.js")
     }
+    action-endpoint (CheckProduceAgainstSeason) {
+      accepted-inputs (produceName, season)
+      local-endpoint ("CheckProduceAgainstSeason.js")
+    }
   }
 }

@@ -1,0 +1,14 @@
+result-view {
+  match: Message(this) {
+    from-output: CheckProduceAgainstSeason(action) {
+      from-input: Season(seasonInput)
+      from-input: ProduceName(produceInput)
+    }
+  }
+  
+  message ("#{value(this)}, #{value(produceInput)} are in season in the #{value(seasonInput)}!")
+  
+  render {
+    nothing
+  }
+}
